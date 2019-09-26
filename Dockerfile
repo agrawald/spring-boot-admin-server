@@ -2,7 +2,7 @@ FROM openjdk:11
 
 MAINTAINER Dheeraj Agrawal <agrawal.dheeraj.7@gmail.com>
 
-COPY build/libs/spring-boot-admin-server-*.jar /opt/spring-boot-admin-docker/app.jar
+COPY ./build/libs/spring-boot-admin-server-*.jar /opt/spring-boot-admin-docker/app.jar
 
 EXPOSE 9090
 
